@@ -14,7 +14,7 @@ app.post("/login", login);
 
 // Show Routes:
 app.get("/shows", getShows);
-app.post("/shows", addShow);
+app.post("/shows", addShow); // We want to protect
 
 
 
